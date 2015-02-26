@@ -143,11 +143,6 @@ var patterns = {
 };
 
 function getPattern(prefixStr) {
-    /*patterns.forEach(function(pattern) {
-       if(pattern.prefix == prefix)
-           return pattern;
-    });
-    return null;*/
     for (var p in patterns) {
         if(patterns.hasOwnProperty(p)) {
             if(patterns[p].prefix == prefixStr)
