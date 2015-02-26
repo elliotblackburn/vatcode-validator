@@ -15,7 +15,7 @@ var invalidCodes =
   "123456789",
   "AA123456789",
   "GB123456789-#@$!"
-]
+];
 console.log("Testing valid codes");
 validCodes.forEach(function(code) {
   console.log("%s : %s", validator.isValid(code) ? "valid" : "invalid", code);
@@ -28,4 +28,4 @@ invalidCodes.forEach(function(code) {
 });
 console.log("===========================================");
 
-process.exit(0);
+//process.exit(0);

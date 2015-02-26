@@ -8,7 +8,7 @@
     "node": ">0.3.0"
   },
   "keywords": [ "vat", "code", "validator", "syntax"],
-  "homepage": "http://github.com/BlueHatbRit/vatcode-validator",
-  "licenses": "http://github.com/BlueHatbRit/vatcode-validator/raw/master/LICENSE",
-  "repository": "http://github.com/BlueHatbRit/vatcode-validator.git"
+  "homepage": "https://github.com/BlueHatbRit/vatcode-validator",
+  "licenses": "https://github.com/BlueHatbRit/vatcode-validator/raw/master/LICENSE.md",
+  "repository": "https://github.com/BlueHatbRit/vatcode-validator.git"
 }
