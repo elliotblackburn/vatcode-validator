@@ -7,7 +7,8 @@ var validCodes =
   "GB123456789",
   "GB123456789123",
   "GBGD001",
-  "GBHA599"
+  "GBHA599",
+  "GB123456789 123"
 ];
 
 var invalidCodes =

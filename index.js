@@ -8,6 +8,7 @@ var Patterns = require("./patterns");
 function isValid(vatcode)
 {
   vatcode = vatcode.toUpperCase();
+  vatcode = vatcode.replace(/\s+/g, '');
 
   //Select the correct pattern based on the country code
   var countryCode = vatcode.substring(0, 2);
