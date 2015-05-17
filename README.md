@@ -3,7 +3,10 @@ This VAT Code Validator checks the syntax of a VAT code. It doesn't make any API
 check the validity of the code itself, so the package can be useful for on the fly checking
 of valid VAT code entry on forms etc.
 
-Example use:
+## Installation
+`npm install vatcode-validator --save`
+
+## Example use
 ```
 var VATValidator = require('vatcode-validator');
 
@@ -16,6 +19,5 @@ if(VATValidator.isValid(vatCode)) {
 }
 ```
 
-###Todo:
-- Add non-EU vat reg-ex to expand the possible codes.
+## Todo:
 - Add a function that checks the validity of a code using a VAT checker API as well as the syntax.
