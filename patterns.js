@@ -1,19 +1,23 @@
 // Thanks to Stackoverflow "BigM" for the original regex used (2014 VAT codes).
 
-var GB =    "^GB[0-9]{9,9}$" +
-            "|^GB[0-9]{12,12}$" +
-            "|^GBGD[0-9]{3,3}$" +
-            "|^GBHA[0-9]{3,3}$";
-var AT = "^ATU[A-Z0-9]{8,8}$";
+var AT = "^ATU[0-9]{8,8}$";
 var BE = "^BE[0-9]{10,10}$";
+var BG = "^BG[0-9]{9,10}$";
 var CY = "^CY[0-9]{8,8}[A-Z]{1,1}$";
 var CZ = "^CZ[0-9]{8,10}$";
 var DE = "^DE[0-9]{9,9}$";
 var DK = "^DK[0-9]{8,8}$";
 var EE = "^EE[0-9]{9,9}$";
+var EL = "^EL[0-9]{9,9}$";
 var ES = "^ES[A-Z0-9]{1,1}[0-9]{7,7}[A-Z0-9]{1,1}$";
 var FI = "^FI[0-9]{8,8}$";
 var FR = "^FR[A-Z0-9]{2,2}[0-9]{9,9}$";
+var FR = "^FR[0-9a-hj-np-zA-HJ-NP-Z]{2,2}[0-9]{9,9}$";
+var GB =    "^GB[0-9]{9,9}$" +
+            "|^GB[0-9]{12,12}$" +
+            "|^GBGD[0-4][0-9]{2,2}$" +
+            "|^GBHA[5-9][0-9]{2,2}$";
+var HR = "^HR[0-9]{11,11}$";
 var HU = "^HU[0-9]{8,8}$";
 var IE = "^IE[0-9]{1,1}[A-Z0-9]{1,1}[0-9]{5,5}[A-Z]{1,1}$|^IE[0-9]{7,7}[A-W]{1,1}[A-I]{1,1}$";
 var IT = "^IT[0-9]{11,11}$";
@@ -24,25 +28,27 @@ var MT = "^MT[0-9]{8,8}$";
 var NL = "^NL[A-Z0-9]{9,9}B[A-Z0-9]{2,2}$";
 var PL = "^PL[0-9]{10,10}$";
 var PT = "^PT[0-9]{9,9}$";
+var RO = "^RO[0-9]{2,9}$";
 var SE = "^SE[0-9]{10,10}01$";
 var SI = "^SI[0-9]{8,8}$";
 var SK = "^SK[0-9]{10,10}$";
-var RO = "^RO[1-9]{1,1}[0-9]{9,9}$";
-var EL = "^EL[0-9]{9,9}$";
-var HR = "^HR[0-9]{11,11}$";
 
 var patterns = {
     GB: {
         prefix: "GB",
         pattern: GB
     },
+    AT: {
+      prefix: "AT",
+      pattern: AT
+    },
+    BG: {
+      prefix: "BG",
+      pattern: BG
+    },
     BE: {
         prefix: "BE",
         pattern: BE
-    },
-    AT: {
-        prefix: "AT",
-        pattern: AT
     },
     CY: {
         prefix: "CY",
