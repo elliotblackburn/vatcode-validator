@@ -7,7 +7,7 @@ of valid VAT code entry on forms etc.
 `npm install vatcode-validator --save`
 
 ## Example use
-```
+```javascript
 var VATValidator = require('vatcode-validator');
 
 var vatCode = '';
