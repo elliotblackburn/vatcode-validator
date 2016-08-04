@@ -1,6 +1,6 @@
 // Thanks to Stackoverflow "BigM" for the original regex used (2014 VAT codes).
 
-var AT = "^ATU[0-9]{8,8}$";
+var AT = "^ATU[A-Z0-9]{8,8}$";
 var BE = "^BE[0-9]{10,10}$";
 var BG = "^BG[0-9]{9,10}$";
 var CY = "^CY[0-9]{8,8}[A-Z]{1,1}$";
