@@ -9,7 +9,12 @@ var validCodes =
   "GBGD001",
   "GBHA599",
   "GB123456789 123",
-  "ATUABCD1234"
+  "ATUABCD1234",
+  "BG123456789",
+  "BG1234567890",
+  "FR0A123456789",
+  "RO12",
+  "RO1234567890",
 ];
 
 var invalidCodes =
@@ -17,7 +22,17 @@ var invalidCodes =
   "123456789",
   "AA123456789",
   "GB123456789-#@$!",
-  "ATUABCD12345"
+  "GBGD500",
+  "GBHA400",
+  "ATUABCD12345",
+  "BG12345678",
+  "BG12345678901",
+  "FRIA123456789",
+  "FR0O123456789",
+  "FR0A12345678",
+  "FR0A1234567890",
+  "RO1",
+  "RO12345678901"
 ];
 console.log("Testing valid codes");
 validCodes.forEach(function(code) {
