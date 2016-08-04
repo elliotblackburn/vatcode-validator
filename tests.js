@@ -36,13 +36,15 @@ var invalidCodes =
 ];
 console.log("Testing valid codes");
 validCodes.forEach(function(code) {
-  console.log("%s : %s", validator.isValid(code) ? "valid" : "invalid", code);
+  var valid = validator.isValid(code)
+  console.log("%s : %s", valid ? "valid" : "\033[31minvalid\033[0m", code);
 });
 console.log("===========================================");
 
 console.log("Testing invalid codes");
 invalidCodes.forEach(function(code) {
-  console.log("%s : %s", validator.isValid(code) ? "valid" : "invalid", code);
+  var valid = validator.isValid(code)
+  console.log("%s : %s", validator.isValid(code) ? "\033[31mvalid\033[0m" : "invalid", code);
 });
 console.log("===========================================");
 
