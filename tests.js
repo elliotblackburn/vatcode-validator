@@ -35,9 +35,13 @@ var invalidCodes =
   "RO12345678901"
 ];
 console.log("Testing valid codes");
+var foundError = false;
 validCodes.forEach(function(code) {
   var valid = validator.isValid(code)
   console.log("%s : %s", valid ? "valid" : "\033[31minvalid\033[0m", code);
+  if (!valid) {
+    foundError = true;
+  }
 });
 console.log("===========================================");
 
@@ -45,7 +49,14 @@ console.log("Testing invalid codes");
 invalidCodes.forEach(function(code) {
   var valid = validator.isValid(code)
   console.log("%s : %s", validator.isValid(code) ? "\033[31mvalid\033[0m" : "invalid", code);
+  if (valid) {
+    foundError = true;
+  }
 });
 console.log("===========================================");
 
-//process.exit(0);
+if (foundError) {
+  process.exit(1);
+} else {
+  process.exit(0);
+}
