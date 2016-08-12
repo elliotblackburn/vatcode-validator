@@ -119,7 +119,7 @@ var patterns = {
         pattern: PL
     },
     PT: {
-        preifx: "PT",
+        prefix: "PT",
         pattern: PT
     },
     SE: {
