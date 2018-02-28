@@ -15,7 +15,10 @@ var validCodes =
   "FR0A123456789",
   "RO12",
   "RO1234567890",
-  "CHE112947556"
+  "CHE112947556",
+  "CHE-112.947.556 IVA",
+  "CHE112.947.556TVA",
+  "CHE 112947556 MWST"
 ];
 
 var invalidCodes =
@@ -34,7 +37,9 @@ var invalidCodes =
   "FR0A1234567890",
   "RO1",
   "RO12345678901",
-  "CH112947556"
+  "CH112947556",
+  "CHE 112.947556 MWST",
+  "CHE 112947556-MWST"
 ];
 console.log("Testing valid codes");
 var foundError = false;
