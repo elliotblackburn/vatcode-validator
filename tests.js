@@ -15,6 +15,7 @@ var validCodes =
   "FR0A123456789",
   "RO12",
   "RO1234567890",
+  "CHE112947556"
 ];
 
 var invalidCodes =
@@ -32,7 +33,8 @@ var invalidCodes =
   "FR0A12345678",
   "FR0A1234567890",
   "RO1",
-  "RO12345678901"
+  "RO12345678901",
+  "CH112947556"
 ];
 console.log("Testing valid codes");
 var foundError = false;
