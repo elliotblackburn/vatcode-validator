@@ -1,10 +1,10 @@
 {
   "name": "vatcode-validator",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "author": "Elliot Blackburn <elliot.blackburn@gmail.com> (http://www.elliotblackburn.com)",
   "homepage": "https://github.com/BlueHatbRit/vatcode-validator",
   "description": "Provides offline, fast, robust VAT Code validator. Only checks form, not function.",
-  "license": "ISC",
+  "license": "MIT",
   "main": "index",
   "engines": {
     "node": ">0.3.0"

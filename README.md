@@ -20,6 +20,3 @@ if(VATValidator.isValid(vatCode)) {
   //not valid :(
 }
 ```
-
-## Todo:
-- Add a function that checks the validity of a code using a VAT checker API as well as the syntax.
