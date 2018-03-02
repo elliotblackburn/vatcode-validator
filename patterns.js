@@ -32,6 +32,7 @@ var RO = "^RO[0-9]{2,10}$";
 var SE = "^SE[0-9]{10,10}01$";
 var SI = "^SI[0-9]{8,8}$";
 var SK = "^SK[0-9]{10,10}$";
+var CH = "^(CHE-|CHE|CHE\s)([0-9]{3,3}(\.)[0-9]{3,3}(\.)[0-9]{3,3}|[0-9]{9,9})(\s|)(MWST|TVA|IVA|)$";
 
 var patterns = {
     GB: {
@@ -145,6 +146,10 @@ var patterns = {
     HR: {
         prefix: "HR",
         pattern: HR
+    },
+    CH: {
+        prefix: "CH",
+        pattern: CH
     }
 };
 
