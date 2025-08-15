@@ -1,8 +1,8 @@
 {
   "name": "vatcode-validator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Elliot Blackburn <elliot.blackburn@gmail.com> (http://www.elliotblackburn.com)",
-  "homepage": "https://github.com/BlueHatbRit/vatcode-validator",
+  "homepage": "https://git.elliotblackburn.com/elliot/vatcode-validator",
   "description": "Provides offline, fast, robust VAT Code validator. Only checks form, not function.",
   "license": "MIT",
   "main": "index",
@@ -17,9 +17,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlueHatbRit/vatcode-validator.git"
+    "url": "https://git.elliotblackburn.com/elliot/vatcode-validator.git"
   },
   "bugs": {
-    "url": "https://github.com/BlueHatbRit/vatcode-validator/issues"
+    "url": "https://git.elliotblackburn.com/elliot/vatcode-validator/issues"
   }
 }
